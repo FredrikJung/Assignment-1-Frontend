@@ -1,0 +1,29 @@
+body {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+header {
+    flex-grow: 1;
+}
+
+nav {
+    flex-grow: 5;
+}
+
+main {
+    flex-grow: 2;
+}
+
+footer {
+    flex-grow: 1;
+}
+
+.container {
+    display: flex;
+    flex-grow: 5;
+    flex-direction: row;
+}
+
